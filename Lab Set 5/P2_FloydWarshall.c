@@ -12,7 +12,7 @@
 
 // Representing infinity (use a safe value to avoid overflow) 
 void printSolution(int matrix[][V]) { 
-    printf("Shortest distances between every pair of vertices:\n");
+    printf("\nShortest distances between every pair of vertices:\n");
     
     for (int i = 0; i < V; i++) { 
         for (int j = 0; j < V; j++) { 

@@ -29,7 +29,7 @@ struct Graph* createGraph(int V, int E) {
 } 
 
 void printSolution(int dist[], int n) { 
-    printf("Vertex\t Distance from source\n"); 
+    printf("\nVertex\t Distance from source\n"); 
     for (int i = 0; i < n; ++i) {
         if (dist[i] == INT_MAX) {
             printf("%d \t\t INF\n", i);
